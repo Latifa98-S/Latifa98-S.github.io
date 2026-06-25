@@ -3,39 +3,261 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Latifa Sassi - AI Engineer portfolio focused on Machine Learning, Computer Vision, Generative AI, RAG, AI Agents and Software Engineering." />
   <title>Latifa Sassi | AI Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Latifa Sassi</h1>
-  <h2>AI Engineer | Machine Learning | Computer Vision | Generative AI</h2>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">Latifa Sassi</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-  <p>
-    I am a Computer Science Master's student with experience in Machine Learning,
-    Computer Vision, YOLOv8, RAG, LangChain, Llama, AI Agents, and software engineering.
-  </p>
+    <section class="hero-content">
+      <p class="eyebrow">AI Engineer · Machine Learning · Computer Vision · Generative AI</p>
+      <h1>Building practical AI systems with computer vision, RAG, LLMs and software engineering.</h1>
+      <p class="hero-text">
+        I am a Computer Science Master's student with hands-on experience in applied AI, YOLOv8 object detection,
+        medical image analysis, Retrieval-Augmented Generation, LangChain, Llama, AI agents, REST APIs and cloud deployment.
+      </p>
+      <div class="hero-buttons">
+        <a class="button primary" href="#projects">View Projects</a>
+        <a class="button secondary" href="mailto:l.sassi@ostfalia.de">Contact Me</a>
+      </div>
+    </section>
+  </header>
 
-  <h2>Projects</h2>
+  <main>
+    <section id="about" class="section two-column">
+      <div>
+        <p class="section-label">About</p>
+        <h2>Applied AI profile with startup and research-oriented project experience.</h2>
+      </div>
+      <div>
+        <p>
+          My work focuses on turning AI ideas into usable applications. I have worked on computer vision systems for
+          object detection, anomaly detection, accident and fire detection, medical image classification, facial expression
+          analysis, and affective computing. I have also worked with Generative AI, RAG, LangChain, Llama and AI agents
+          through the Open Ana platform.
+        </p>
+        <p>
+          Some professional projects are proprietary, so this portfolio presents the technical architecture, my contribution,
+          the tools used, and the lessons learned without exposing confidential source code or private company data.
+        </p>
+      </div>
+    </section>
 
-  <h3>Open Ana</h3>
-  <p>
-    Generative AI project using LangChain, Llama, RAG, and AI Agents.
-    Source code is proprietary and cannot be shared publicly.
-  </p>
+    <section id="projects" class="section">
+      <p class="section-label">Selected Projects</p>
+      <h2>AI, Computer Vision, Generative AI and Software Engineering Projects</h2>
+      <div class="project-grid">
+        <article class="card featured">
+          <span class="tag">Generative AI · RAG · AI Agents</span>
+          <h3>Open Ana</h3>
+          <p>
+            Contributed to a Generative AI platform using LangChain, Llama, Retrieval-Augmented Generation and AI agents.
+            The work included prompt engineering, retrieval workflows and context-aware AI assistance.
+          </p>
+          <ul>
+            <li><strong>Role:</strong> Machine Learning Engineer / AI Engineer</li>
+            <li><strong>Tech:</strong> Python, LangChain, Llama, RAG, AI Agents, LLMs</li>
+            <li><strong>Status:</strong> Proprietary project — source code cannot be shared publicly.</li>
+          </ul>
+        </article>
 
-  <h3>Computer Vision Projects</h3>
-  <p>
-    Worked on object detection, accident detection, fire detection, MRI tumour detection,
-    facial expression recognition, and breast cancer classification.
-  </p>
+        <article class="card featured">
+          <span class="tag">YOLOv8 · Video Analytics</span>
+          <h3>Accident, Fire & Anomaly Detection</h3>
+          <p>
+            Worked on computer vision pipelines for detecting objects, anomalies, traffic accidents and fire-related events
+            from image and video data. One workflow used object detection and tracking logic to identify overtaking situations
+            and generate alerts from CCTV footage.
+          </p>
+          <ul>
+            <li><strong>Tech:</strong> Python, YOLOv8, OpenCV, PyTorch/TensorFlow</li>
+            <li><strong>Concepts:</strong> Object detection, tracking, anomaly detection, alert generation</li>
+            <li><strong>Status:</strong> Proprietary project — technical summary only.</li>
+          </ul>
+        </article>
 
-  <h3>Smart Study Notes Generator</h3>
-  <p>
-    RAG-based application that generates contextual answers and flashcards from lecture PDFs.
-  </p>
+        <article class="card">
+          <span class="tag">Medical AI</span>
+          <h3>MRI Tumour Detection & Classification</h3>
+          <p>
+            Worked on deep learning workflows for detecting and classifying different tumour types from medical imaging data,
+            including MRI-based analysis.
+          </p>
+          <ul>
+            <li><strong>Tech:</strong> Python, Deep Learning, CNNs, TensorFlow/PyTorch</li>
+            <li><strong>Tasks:</strong> Image classification, tumour detection, model evaluation</li>
+          </ul>
+        </article>
 
-  <h2>Contact</h2>
-  <p>Email: l.sassi@ostfalia.de</p>
-  <p>GitHub: github.com/Latifa98-S</p>
-  <p>LinkedIn: linkedin.com/in/latifa-sassi-3a67191a9</p>
+        <article class="card">
+          <span class="tag">Healthcare AI</span>
+          <h3>Breast Cancer Classification</h3>
+          <p>
+            Developed and evaluated classification approaches for breast cancer prediction and analysis using machine learning
+            and deep learning concepts.
+          </p>
+          <ul>
+            <li><strong>Tech:</strong> Python, scikit-learn, Deep Learning</li>
+            <li><strong>Focus:</strong> Classification, evaluation, model comparison</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="tag">Affective Computing</span>
+          <h3>Facial Expression, Valence & Arousal Detection</h3>
+          <p>
+            Worked on video and image-based analysis for facial expression recognition, valence and arousal prediction,
+            and behavioral signal detection.
+          </p>
+          <ul>
+            <li><strong>Tech:</strong> Python, OpenCV, Deep Learning</li>
+            <li><strong>Focus:</strong> Emotion recognition, video analysis, affective computing</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="tag">Computer Vision</span>
+          <h3>Teeth Yellowness Detection</h3>
+          <p>
+            Worked on an image analysis task to detect and classify teeth yellowness using computer vision techniques.
+          </p>
+          <ul>
+            <li><strong>Tech:</strong> Python, OpenCV, Image Processing</li>
+            <li><strong>Focus:</strong> Visual feature extraction and classification</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="tag">RAG · Education AI</span>
+          <h3>Smart Study Notes Generator</h3>
+          <p>
+            Built a Streamlit application that generates contextual answers and flashcards from lecture PDFs using
+            Retrieval-Augmented Generation.
+          </p>
+          <ul>
+            <li><strong>Tech:</strong> Python, Streamlit, FAISS, SentenceTransformers, PyPDF, OpenAI API</li>
+            <li><strong>Focus:</strong> Document processing, semantic search, learning assistance</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="tag">Computer Vision · Agriculture</span>
+          <h3>Insect Detection & Counting</h3>
+          <p>
+            Developed an AI-based insect detection and counting system for agricultural monitoring during an internship at
+            Orange Digital Center.
+          </p>
+          <ul>
+            <li><strong>Tech:</strong> Python, OpenCV, TensorFlow, Flask, Google App Engine</li>
+            <li><strong>Focus:</strong> Detection, counting, REST API, alert system, cloud deployment</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="tag">Backend · Cloud</span>
+          <h3>SERP — Scalable Enterprise Resource Platform</h3>
+          <p>
+            Designed and implemented backend services for a scalable enterprise platform using Spring Boot, REST APIs and
+            microservice-oriented architecture.
+          </p>
+          <ul>
+            <li><strong>Tech:</strong> Java, Spring Boot, REST APIs, Microservices, Azure DevOps, Docker, MySQL</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="tag">Data Science · NLP</span>
+          <h3>Client Satisfaction Analysis in Telecom</h3>
+          <p>
+            Analyzed more than 50,000 customer messages to identify satisfaction patterns and support data-driven decisions.
+          </p>
+          <ul>
+            <li><strong>Tech:</strong> Python, pandas, scikit-learn, NLP, Rasa, SQL, Power BI</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <p class="section-label">Experience</p>
+      <h2>Professional Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="date">Feb 2023 — May 2024</div>
+          <div>
+            <h3>Machine Learning Engineer / AI Engineer · Revca</h3>
+            <p>Worked on computer vision, YOLOv8-based object detection, medical image analysis, Generative AI, RAG, LangChain, Llama and AI agents.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="date">Mar 2022 — Sep 2022</div>
+          <div>
+            <h3>AI & Computer Vision Intern · Orange Digital Center</h3>
+            <p>Built an insect detection and counting system with Flask API and Google App Engine deployment.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="date">Jul 2021 — Sep 2021</div>
+          <div>
+            <h3>Data Science Intern · Unfrauded</h3>
+            <p>Worked on data preprocessing, association rule mining, car price prediction and Flask API integration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section-label">Technical Stack</p>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div><h3>AI & ML</h3><p>Machine Learning, Deep Learning, scikit-learn, PyTorch, TensorFlow, Keras</p></div>
+        <div><h3>Generative AI</h3><p>LLMs, RAG, LangChain, Llama, AI Agents, Prompt Engineering, FAISS</p></div>
+        <div><h3>Computer Vision</h3><p>YOLOv8, OpenCV, Object Detection, Image Classification, Video Analytics</p></div>
+        <div><h3>Software</h3><p>Python, Java, C/C++, JavaScript, SQL, Flask, FastAPI, Spring Boot, REST APIs</p></div>
+        <div><h3>Data & Cloud</h3><p>pandas, NumPy, Power BI, MySQL, PostgreSQL, MongoDB, GCP, Azure, Docker</p></div>
+        <div><h3>Languages</h3><p>Arabic Native, French C1, English C1, German C1 TELC Hochschule</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="section-label">Awards & Activities</p>
+      <h2>Competitions, Mentoring and Community</h2>
+      <div class="badges">
+        <span>Tunisia IoT & AI Challenge — 2nd Place</span>
+        <span>Arab IoT & AI Challenge</span>
+        <span>InnovAgri Hackathon</span>
+        <span>Orange Foundation — I Make 4 My City</span>
+        <span>IEEE Club ESPRIT</span>
+        <span>GITEX Global Dubai</span>
+        <span>Mentor at ESPRIT</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="section-label">Contact</p>
+      <h2>Let’s connect</h2>
+      <p>I am open to working-student roles in AI, Machine Learning, Computer Vision, Generative AI and Software Engineering in Germany.</p>
+      <div class="contact-links">
+        <a href="mailto:l.sassi@ostfalia.de">l.sassi@ostfalia.de</a>
+        <a href="https://github.com/Latifa98-S">GitHub</a>
+        <a href="https://www.linkedin.com/in/latifa-sassi-3a67191a9">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Latifa Sassi. Built with HTML, CSS and GitHub Pages.</p>
+  </footer>
 </body>
 </html>
